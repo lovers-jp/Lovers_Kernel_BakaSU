@@ -22,7 +22,6 @@ Lovers Kernel BakaSUは、**Pixel 11シリーズ**を対象に、CPUスケジュ
 | ネットワーク | BBRv3、CAKE、fq_codel対応 |
 | 電力関連 | RCU_LAZY、省電力向けworkqueue設定 |
 | root・SUSFS・保護機能 | BakaSU、SUSFS、UID isolation対応NoMountの組み込み、Baseband Guard（BBG） |
-| ビルド | CFIを維持したNoLTO構成 |
 
 実際に働く機能は、端末・使用中のCPUFreqガバナー・実行時設定によって異なります。Schedutilの設定はschedutil使用時が対象です。CASSは既定でAndroid vendor hookの有効なCPU選択を優先し、SBalanceは初期状態でOFF、idle QoSの要求は解除状態です。CAKE対応だけで通信インターフェースのキューを自動的に切り替えるわけではありません。
 
