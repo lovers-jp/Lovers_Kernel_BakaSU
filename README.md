@@ -17,12 +17,11 @@ Lovers Kernel BakaSU is designed for the **Pixel 11 series** and incorporates mo
 | IRQ balancing | SBalance with capacity-aware IRQ distribution and activity statistics |
 | CPU frequency and idle | Schedutil adjustments, a TEO idle-prediction fix, and configurable CPU latency QoS |
 | Memory management | DAMON/DAMOS adaptive reclaim, mTHP, and MGLRU tuning |
-| ZRAM | Stock Google ZRAM and EH compression retained |
+| ZRAM | Built-in ZRAM/ZSMALLOC, an LZ4-primary policy, and cold-page ZSTD recompression controls |
 | Storage | ADIOS I/O scheduler, TMPFS support, and F2FS/EROFS fixes |
 | Networking | BBRv3, CAKE, and fq_codel support |
 | Power policy | RCU_LAZY and power-efficient workqueues |
 | Root, SUSFS and protection | Built-in BakaSU, SUSFS, NoMount with UID isolation, and Baseband Guard (BBG) |
-| Build | NoLTO with CFI retained |
 
 Feature activity depends on the device, active CPUFreq governor, and runtime configuration. Schedutil controls apply to schedutil policies. CASS defaults to prioritizing valid Android vendor CPU selections, SBalance is disabled by default, and the idle QoS request is initially released. CAKE support does not automatically replace interface queues.
 
