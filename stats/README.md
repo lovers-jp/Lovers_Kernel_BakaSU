@@ -1,26 +1,28 @@
 # Lovers_Kernel Releaseダウンロード統計
 
-集計日（日本時間）: **2026-11-19**
+集計日（日本時間）: **2026-11-20**
 
-- 全添付ファイルの累計DL数（延べ回数）: **53**
-- ZIPファイルの累計DL数: **28**
-- APKファイルの累計DL数: **25**
-- 集計対象: **10 ファイル**
+- 全添付ファイルの累計DL数（延べ回数）: **61**
+- ZIPファイルの累計DL数: **33**
+- APKファイルの累計DL数: **28**
+- 集計対象: **12 ファイル**
 
-前回の記録日: **2026-11-18**
+前回の記録日: **2026-11-19**
 
 | リリース | ファイル | 累計DL数 | 前回記録比 |
 |---|---|---:|---:|
-| CP4A.261105.040.D1 | boot.zip | 1 | — |
-| CP4A.261105.040.D1 | Lovers-Kernel-Tuner-v1.6.1.apk | 0 | — |
-| 2026111800 | boot.zip | 1 | — |
-| 2026111800 | Lovers-Kernel-Tuner-v1.6.1.apk | 1 | — |
+| 2026112000 | boot.zip | 3 | — |
+| 2026112000 | Lovers-Kernel-Tuner-v1.6.1.apk | 2 | — |
+| CP4A.261105.040.D1 | boot.zip | 2 | +1 |
+| CP4A.261105.040.D1 | Lovers-Kernel-Tuner-v1.6.1.apk | 0 | +0 |
+| 2026111800 | boot.zip | 1 | +0 |
+| 2026111800 | Lovers-Kernel-Tuner-v1.6.1.apk | 1 | +0 |
 | 2026111400 | boot.zip | 5 | +0 |
 | 2026111400 | Lovers-Kernel-Tuner-v1.5.0.apk | 5 | +0 |
 | 2026111000 | boot.zip | 10 | +0 |
 | 2026111000 | Lovers-Kernel-Tuner-v1.5.0.apk | 8 | +0 |
-| 35252 | boot.zip | 11 | +0 |
-| 35252 | Lovers-Kernel-Tuner-v1.3.1.apk | 11 | +0 |
+| 35252 | boot.zip | 12 | +1 |
+| 35252 | Lovers-Kernel-Tuner-v1.3.1.apk | 12 | +1 |
 
 ※ ダウンロード数はGitHub APIの `download_count` に基づく延べ回数です。ユニークユーザー数ではありません。
 
